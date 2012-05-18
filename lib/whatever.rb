@@ -10,6 +10,6 @@ class Whatever
 	].freeze
  
   def self.method_missing(meth, *args, &block)
-  	puts RESPONSES.sample
+  	RESPONSES.sample
   end
 end
