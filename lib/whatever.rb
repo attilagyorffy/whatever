@@ -1,6 +1,6 @@
 require "whatever/version"
 
-class Whatever
+class Object
 	RESPONSES = [
 		"Are you talking to me?",
 		"Piss off!",
