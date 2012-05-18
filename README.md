@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-Call any method on the `Whenever` class and It Should Just Work™.
+Call any method on the `Whatever` class and It Should Just Work™.
 
     Whatever.foo
     => Are you talking to me?
