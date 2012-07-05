@@ -10,6 +10,12 @@ class Whatever
   ].freeze
 
   def self.method_missing(meth, *args, &block)
-    RESPONSES.sample
+    if RESPONSES.respond_to? :sample
+      RESPONSES.sample
+    elsif RESPONSES.respond_to? :choice
+      RESPONSES.choice
+    else
+      RESPONSES.first
+    end
   end
 end
